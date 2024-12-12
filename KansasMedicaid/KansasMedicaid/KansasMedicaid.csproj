@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\ks-styles.css" />
+    <None Include="wwwroot\images\kansas-logo.gif" />
+    <None Include="wwwroot\images\state-seal.gif" />
+  </ItemGroup>
+
+</Project>
