@@ -18,6 +18,11 @@ namespace KansasMedicaid.Controllers
             return View();
         }
 
+        [Route("UnderConstruction")]
+        public IActionResult UnderConstruction()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

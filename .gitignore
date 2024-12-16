@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/KansasMedicaid/KansasMedicaid/bin/Debug/net8.0
+/KansasMedicaid/.vs/KansasMedicaid
+/KansasMedicaid/KansasMedicaid/obj
