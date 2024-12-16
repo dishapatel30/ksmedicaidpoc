@@ -7,16 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\assets\medicaid\StatePlan\Sec1\Sitaram kumhar - Gainwell Technologies HIPAA &amp; Privacy Training.pdf" />
+    <Compile Remove="wwwroot\assets\medicaid\StatePlan\Sec2\**" />
+    <Content Remove="wwwroot\assets\medicaid\StatePlan\Sec2\**" />
+    <EmbeddedResource Remove="wwwroot\assets\medicaid\StatePlan\Sec2\**" />
+    <None Remove="wwwroot\assets\medicaid\StatePlan\Sec2\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\assets\medicaid\StatePlan\Sec2\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\assets\medicaid\StatePlan\Sec1\Sitaram kumhar - Gainwell Technologies HIPAA &amp; Privacy Training.pdf" />
     <None Include="wwwroot\css\bootstrap.min.css" />
     <None Include="wwwroot\css\ks-styles.css" />
     <None Include="wwwroot\images\kansas-logo.gif" />
