@@ -24,6 +24,12 @@ namespace KansasMedicaid.Controllers
             return View();
         }
 
+        [Route("IndexHMenu")]
+        public IActionResult IndexHMenu()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

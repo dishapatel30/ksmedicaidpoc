@@ -1,0 +1,749 @@
+﻿@{
+    ViewData["Title"] = "Horizontal Menu Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kansas Medicaid State Plan A | KS Dept. of Health</title>
+
+    <meta name="description" content="The Kansas Department of Health protects and promotes health and ensures access to medical, preventive and rehabilitative services for all citizens of the State of Louisiana." />
+
+    <meta property="og:image" content="logo.png" />
+
+    @*  <link href="/css/bootstrap.min.css" rel="stylesheet">*@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600|Playfair+Display:400' rel='stylesheet' type='text/css'>
+    <link href="/css/ks-styles.css?v=8" rel="stylesheet" type="text/css">
+    <link href="/css/wysiwyg.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="/css/stylebundlemegamenudropdown.css" rel="stylesheet" type="text/css" />
+    <link href="/css/stylebundlemegamenudropdowndefault.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+    <![endif]-->
+    <!-- Google Tag Manager -->
+    @* <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6QZVTF');</script>
+    <!-- End Google Tag Manager -->
+    <!-- MESH Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PHQ8XH2');</script>
+    <!-- End MESH Google Tag Manager -->
+    <!-- ROCKIT SCIENCE Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16661134212"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16661134212'); </script>
+    <link rel="stylesheet" href="https://df-messenger-prod-j6axfe3vgq-ue.a.run.app/style.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script> *@
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    @* <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6QZVTF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> *@
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="force-wrapper">
+        <!--HEADER-->
+        <header id="header" class="subhome accent-blue">
+            <div class="container">
+                <div class="logo-bar">
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-6 mob-wdth">
+                            <div class="logo-wrap">
+                                <div class="seal"><a href="#"><img src="/images/state-seal.gif" alt="Kansas State Seal"></a></div>
+                                <div class="logo"><a href="/"><img src="/images/kansas-logo.svg" alt="Department of Health and Hospitals logo"></a></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-6 mob-wdth">
+                            <div class="rt-content">
+                                <div class="wrapper">
+                                    <div class="sec-bar sec-titles pull-right">
+                                        @* <span>Surgeon&nbsp;General&nbsp;<strong>RALPH&nbsp;L.&nbsp;ABRAHAM,&nbsp;M.D.</strong></span> <span class="sec-divider">|</span> <span>Secretary&nbsp;<strong>MICHAEL&nbsp;HARRINGTON</strong></span> *@
+                                        <span>Surgeon&nbsp;General&nbsp;<strong>ABC M.D.</strong></span> <span class="sec-divider">|</span> <span>Secretary&nbsp;<strong>XYZ</strong></span>
+
+                                    </div>
+                                </div>
+                                @* <div class="wrapper">
+                                <a class="pull-right" href="/">
+                                <div class="btn dhh"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back to KS</div>
+                                </a>
+                                </div> *@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-header">
+                <div class="container">
+                    <div class="wrapper">
+                        <div>
+                            <div>
+
+                                <div class="title">Kansas Department of Health and Environment (Medicaid)</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="breadcrumb-bar">
+                <div class="container">
+
+                    @* <a href="#">Kansas.gov</a> &gt; <a href="/">KS</a>
+                    &gt; <a href="/index.cfm/subhome/1">Kansas Department of Health and Environment (Medicaid)</a> *@
+                    <span>Kansas Department of Health and Environment (Medicaid)</span>
+                </div>
+            </div>
+
+            <nav class="regularmegamenu mainnav" id="menuContainer_189_2300_11">
+                <ul class="dropdownmenu clearfix">
+                    <li class="megamenu_first active" id="dropdownrootitem1"><a class="dropdownrootitem1" href="/IndexHMenu">Home</a></li>
+                    <li class="megamenu_first" id="dropdownrootitem2">
+                        <a class="dropdownrootitem2" href="/about-us" title="About Us" data-navid="2" target="_self">About Us</a>
+                        <div class="megamenu_container widthcontainer4col" style="display: none; max-height: 104px;">
+                            <div class="inner_container">
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1"><a class="megamenu_level1" href="/about-us/about-our-leadership" title="About Our Leadership" data-navid="59" target="_self">About Our Leadership</a></li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/about-us/about-our-commissions" title="About Our Commissions" data-navid="60" target="_self">About Our Commissions</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Aging Services</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Behavioral Health Services</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Financial Services</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Long Term Services Supports</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">State Hospitals</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Survey, Certification Credentialing</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1"><a class="megamenu_level1" href="/">Request a Centenarian Birthday Greeting</a></li>
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">State of Kansas Disaster Response</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Disaster Preparedness for Aging and Disabled Kansans</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1"><a class="megamenu_level1" href="/">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="megamenu_first" id="dropdownrootitem3">
+                        <a class="dropdownrootitem3" href="/">Services Programs</a>
+                        <div class="megamenu_container widthcontainer4col" style="display: none; max-height: 104px;">
+                            <div class="inner_container">
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">Adverse Incident Reporting (AIR)</a>
+                                    </li>
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">Aging</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Alzheimer’s Disease and Dementia</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Kansas Dementia Roadmap</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Caregivers</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Trualta</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Health Promotion and Disease Prevention</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Kansas Senior Nutrition Program</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Medicare Improvements for Patients and Providers Act (MIPPA)</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Older Americans Act</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">2026-2029 State Plan on Aging</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">State Advisory Council on Aging</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Prevention of Elder Abuse, Neglect and Exploitation (PEANE) Grants</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Operation Red File</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Program of All-Inclusive Care for the Elderly (PACE)</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Senior Care Act (SCA)</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Senior Health Insurance Counseling for Kansas (SHICK)</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Disability and Medicare</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Employment and Medicare</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Locating Help</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Medicare Frequently Asked Questions</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Medicare Part D - Prescription Drug Coverage</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">What is SHICK?</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">SHICK Coordinator and Counselor Information</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Senior Medicare Patrol (SMP)</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">SMP Additional Resources</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">SMP Frequently Asked Questions</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">Aging and Disability Resource Center</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Eldercare Locator</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Helpful Links</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Services</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Care Coordination &amp; Other Services</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Caregiver Resources</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Community Services</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Housing &amp; Long-Term Care</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">In-Home Services</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Medical Services</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Nursing Homes</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">Behavioral Health</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">988 Suicide &amp; Crisis Lifeline</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Behavioral Health Learning Collaborative</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">BHS Draft Policies</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Certifications and Training</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Brain Injury Training</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Medicaid Functional Eligibility Instrument (MFEI) Training Information</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Medicaid Mental Health Service Provider Training</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Motivational Interviewing</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Psychiatric Residential Treatment Facility (PRTF)</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Screening, Brief Intervention and Referral for Treatment (SBIRT)</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">State Training Requirements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Certified Community Behavioral Health Clinics</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">For Consumers</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">For Providers</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Client Assessment, Referral and Evaluation (CARE)</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Community Mental Health Centers</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Consumer Rights</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Crisis and Disaster Information</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">If You Are In a Crisis...</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Recovering from a Disaster</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">CMHC 24-Hour Crisis Lines</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Governor's Behavioral Health Services Planning Council</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">GBHSPC Subcommittees</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Governor's Challenge to Prevent Suicide among Service Members, Veterans and their Families</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Mental Health Task Force</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Nursing Facilities for Mental Health</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Private Psychiatric Hospitals</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Problem Gambling</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Services and Programs</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/community-support-medication-program" title="Community Support Medication Program" data-navid="160" target="_self">Community Support Medication Program</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/kansas-designated-women-s-substance-use-disorder-treatment" title="Kansas Designated Women's Substance Use Disorder Treatment" data-navid="161" target="_self">Kansas Designated Women's Substance Use Disorder Treatment</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/kansas-opioid-state-targeted-response" title="Kansas Opioid State Targeted Response" data-navid="162" target="_self">Kansas Opioid State Targeted Response</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/methadone-maintenance-treatment" title="Methadone Maintenance Treatment" data-navid="163" target="_self">Methadone Maintenance Treatment</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/positive-behavior-supports-pbs" title="Positive Behavior Supports (PBS)" data-navid="164" target="_self">Positive Behavior Supports (PBS)</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/problem-gambling-services" title="Problem Gambling Services" data-navid="165" target="_self">Problem Gambling Services</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/recovery-oriented-systems-of-care" title="Recovery-Oriented Systems of Care" data-navid="166" target="_self">Recovery-Oriented Systems of Care</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/strategic-prevention-framework-partnership-for-success-ii-initiative" title="Strategic Prevention Framework Partnership for Success II Initiative" data-navid="167" target="_self">Strategic Prevention Framework Partnership for Success II Initiative</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/substance-use-disorder-treatment-services" title="Substance Use Disorder Treatment Services" data-navid="168" target="_self">Substance Use Disorder Treatment Services</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/behavioral-health/services-and-programs/medication-assisted-treatment" title="Medication-Assisted Treatment (MAT)" data-navid="169" target="_self">Medication-Assisted Treatment</a></li></ul></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Substance Abuse and Mental Health Services Administration Block Grant</a></li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Veterans Services</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Youth Leaders in Kansas (YLinK)</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Current YLinK Sites</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Program Spotlight &amp; Events</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Contact Behavioral Health</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Questions and Concerns</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="megamenu_column">
+                                    <li class="megamenu_level1">
+                                        <a class="megamenu_level1" href="/">Long Term Services &amp; Supports</a>
+                                        <ul class="megamenu_level1">
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Community Support Waiver</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/long-term-services-supports/home-and-community-based-services-hcbs-programs" title="Home and Community Based Services (HCBS)" data-navid="194" target="_self">Home and Community Based Services (HCBS)</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">KanCare</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Federal Medical Assistance Percentage (FMAP)</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Join Our Mailing List</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Manuals &amp; Forms</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Notices &amp; Memos</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Olmstead</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Policies</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Settings Final Rule</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Stakeholder Meetings</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Waiver Programs</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Waiver Renewal / Amendment</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2"><a class="megamenu_level2" href="/">Leadership &amp; Staff</a></li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Respite for Caregivers</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Family Caregivers</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Kansas Lifespan Respite Coalition</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Locate Respite Care</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Paying for Respite Care</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Respite Support and Advocacy Resources</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Respite Training Resources</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="megamenu_level2">
+                                                <a class="megamenu_level2" href="/">Training &amp; Resources</a>
+                                                <ul class="megamenu_level2">
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Department of Labor Information</a></li>
+                                                    <li class="megamenu_level3"><a class="megamenu_level3" href="/">Self-Direction</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a id="pagebody"></a>
+                <script>
+                    $(function () {
+                        var menuContainer = $('#menuContainer_189_2300_11');
+                        menuContainer.find('.dropdownmenu>li>a[data-navid="1"]').closest('li').addClass('active');
+                    });
+                </script>
+            </nav>
+
+        </header>
+        <!--/HEADER-->
+        <!--CONTENT-->
+
+        <section id="news" class="accent-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle secondary-collapse collapsed" data-toggle="collapse" data-target="#secondary-nav"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        </div>
+                        <nav id="secondary-nav" class="secondary-nav collapse navbar-collapse">
+
+                            <ul>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/" tabindex="-1" shpid="1" class="link-off">About Medicaid</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Providers </a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Children &amp; Families</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Women</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Long-Term Care</a>
+
+                                    <ul class="dropdown-menu">
+
+                                        <li class="menu-item"><a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Estate Recovery</a></li>
+
+                                    </ul>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Medicaid Behavioral Health</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Pharmacy</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Report Abuse or Neglect</a>
+
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                    <div class="col-md-10 col-sm-9">
+
+
+                        <div class="row main-content">
+                            <div class="col-sm-12">
+                                <p><span class="head">Medicaid State Plan</span></p>
+                                <table style="border: 1px solid #817e7f; height: 29px; background-color: #a0c8cc;" border="1" width="348" align="right">
+                                    <tbody>
+                                        <tr style="height: 28px;">
+                                            <td style="width: 146px; height: 28px; text-align: center; background-color: #36d3c9;"><strong><span style="color: #ffffff;">Medicaid State Plan</span></strong></td>
+                                            <td style="width: 108px; height: 28px; text-align: center; background-color: #00b388;"><a href="/UnderConstruction"><span style="color: #ffffff;">Amendments</span></a></td>
+                                            <td style="width: 93px; height: 28px; text-align: center; background-color: #00b388;"><a class="lnk-accent01" href="/UnderConstruction"><span style="color: #ffffff;">Policy Home</span></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table style="height: 28px;" width="162">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 112px; height: 28px; text-align: center; background-color: #00b388;"><strong><a class="lnk-accent01" href="/UnderConstruction" target="_blank" rel="noopener noreferrer"><span style="color: #ffffff;">SEND QUESTIONS &amp; COMMENTS</span></a></strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="normal"><br /><br class="blank" /><br class="blank" /></p>
+                                <p><span class="wysiwyg-subbar">Section 1 - Single State Agency Organization</span></p>
+                                <ul>
+                                    <li>
+                                        Section 1.1&nbsp;- <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.1.pdf" target="_blank" rel="noopener noreferrer">Designation and Authority</a><br />
+                                        <ul>
+                                            <li>Attachment 1.1a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.1a.pdf" target="_blank" rel="noopener noreferrer">Certification of Single State Agency</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Section 1.2 -&nbsp;Organization for Administration<br />
+                                        <ul>
+                                            <li>Attachment 1.2a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.2-A.pdf" target="_blank" rel="noopener noreferrer">State Agency Organization and Functions</a></li>
+                                            <li>Attachment 1.2b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.2-B.pdf" target="_blank" rel="noopener noreferrer">Organization and Function of Bureau of Health Services Financing</a></li>
+                                            <li>Attachment 1.2c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.2C.pdf" target="_blank" rel="noopener noreferrer">Professional Medical and Supporting Staff</a></li>
+                                            <li>Attachment 1.2d - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Attachment1.2D.pdf" target="_blank" rel="noopener noreferrer">Description of Staff Making Eligibility Decisions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Section 1.3 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Section1.3.pdf" target="_blank" rel="noopener noreferrer">Statewide Operation</a></li>
+                                    <li>Section 1.4 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Section1.4.pdf" target="_blank" rel="noopener noreferrer">State Medical Care Advisory Committee</a></li>
+                                    <li>Section 1.5 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Section1.5.pdf" target="_blank" rel="noopener noreferrer">Pediatric Immunization Program</a></li>
+                                    <li>Section 1.6 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec1/Section1.6.pdf" target="_blank" rel="noopener noreferrer">Tribal Consultation of SPA Process</a></li>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">Section 2 - Coverage and Eligibility</span></p>
+                                <ul>
+                                    <li>Section 2.1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.1.pdf" target="_blank" rel="noopener noreferrer">Application Determination of Eligibility and Furnishing Medicaid</a></li>
+                                    <li>
+                                        Section 2.2 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.2.pdf" target="_blank" rel="noopener noreferrer">Coverage and Conditions of Eligibility </a><br />
+                                        <ul>
+                                            <li>
+                                                Attachment 2.2a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.2A.pdf" target="_blank" rel="noopener noreferrer">Groups Covered and Agencies Responsible for Eligibility</a><br />
+                                                <ul>
+                                                    <li>Supplement 1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.2ASupplement1.pdf" target="_blank" rel="noopener noreferrer">Reasonable Classifications of Individuals</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Section 2.3 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.3.pdf" target="_blank" rel="noopener noreferrer">Residence</a></li>
+                                    <li>Section 2.4 -&nbsp;<a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.4.pdf" target="_blank" rel="noopener noreferrer">Blindness</a></li>
+                                    <li>Section 2.5 -&nbsp;<a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.5.pdf" target="_blank" rel="noopener noreferrer">Disability</a></li>
+                                    <li>
+                                        Section 2.6 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.6.pdf" target="_blank" rel="noopener noreferrer">Financial Eligibility</a><br />
+                                        <ul>
+                                            <li>
+                                                Attachment 2.6A <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6A.pdf" target="_blank" rel="noopener noreferrer">Eligibility Conditions and Requirements </a><br />
+                                                <ul>
+                                                    <li>Supplement 1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement01.pdf" target="_blank" rel="noopener noreferrer">Eligibility Income Levels</a></li>
+                                                    <li>Supplement 2 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement02.pdf" target="_blank" rel="noopener noreferrer">Eligibility Resource Levels</a></li>
+                                                    <li>Supplement 3 - <a href="/assets/medicaid/StatePlan/Sec2/Attachment2.6-ASupplement3.pdf" target="_blank" rel="noopener noreferrer">Reasonable Limits</a></li>
+                                                    <li>Supplement 5 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement05.pdf" target="_blank" rel="noopener noreferrer">Methodologies for Treatment of Income and Resources that Differ from SSI</a></li>
+                                                    <li>Supplement 5a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement05a.pdf" target="_blank" rel="noopener noreferrer">Methodologies for Treatment of Resources for Individuals with Income up to a Percentage of FPL</a></li>
+                                                    <li>Supplement 6 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement06.pdf" target="_blank" rel="noopener noreferrer">Standards for Optional State Supplementary Payments</a></li>
+                                                    <li>Supplement 7 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement07.pdf" target="_blank" rel="noopener noreferrer">Categorically Needy who are Covered under Requirements more Restrictive than SSI</a></li>
+                                                    <li>Supplement 8a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement08a.pdf" target="_blank" rel="noopener noreferrer">More Liberal Methods of Treating Income under 1902(r)(2) of the Act</a></li>
+                                                    <li>Supplement 8b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement08b.pdf" target="_blank" rel="noopener noreferrer">More Liberal Methods of Treating Resources under 1902(r)(2) of the Act</a></li>
+                                                    <li>Supplement 8c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement08c.pdf" target="_blank" rel="noopener noreferrer">State Long-Term Care Insurance Partnership</a></li>
+                                                    <li>Supplement 9 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement09.pdf" target="_blank" rel="noopener noreferrer">Transfer of Resources</a></li>
+                                                    <li>Supplement 9a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement09a.pdf" target="_blank" rel="noopener noreferrer">Transfer of Assets</a></li>
+                                                    <li>Supplement 10 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement10.pdf" target="_blank" rel="noopener noreferrer">Consideration of Medicaid Qualifying Trusts - Undue Hardship</a></li>
+                                                    <li>Supplement 12 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement12.pdf" target="_blank" rel="noopener noreferrer">Variations from the Basic Personal Needs Allowance</a></li>
+                                                    <li>Supplement 13 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement13.pdf" target="_blank" rel="noopener noreferrer">Section 1924 Provisions</a></li>
+                                                    <li>Supplement 14 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement14.pdf" target="_blank" rel="noopener noreferrer">Income and Resource Requirements for Tuberculosis Infected Individuals</a></li>
+                                                    <li>Supplement 15 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement15.pdf" target="_blank" rel="noopener noreferrer">Treatment of Optional Groups of Qualified Aliens</a></li>
+                                                    <li>Supplement 16 - <span class="lnk-accent01"><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement16.pdf" target="_blank" rel="noopener noreferrer">Eligibility under Section 1931 of the Act</a></span></li>
+                                                    <li>Supplement 17 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Attachment2.6ASupplement17.pdf" target="_blank" rel="noopener noreferrer">Disqualification for Long-Term Care Assistance for Individuals with Substantial Home Equity</a></li>
+                                                    <li>Supplement 18 &ndash; <a href="/assets/medicaid/StatePlan/Sec2/Supplement18-FederalMedicalAssistancePercentage-FMAP.pdf" target="_blank" rel="noopener noreferrer">Federal Medical Assistance Percentage (FMAP)</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Section 2.7 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.7.pdf" target="_blank" rel="noopener noreferrer">Medicaid Furnished Out of State</a></li>
+                                    <li>Section 2.8 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/Section2.8.pdf" target="_blank" rel="noopener noreferrer">Modified Adjusted Gross Income (MAGI) </a></li>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">Section&nbsp;2 - MMDL and MACPro System Approvals</span></p>
+                                <p class="sub-head">Eligibility</p>
+                                <ul>
+                                    <li>MACPro - <a href="/assets/medicaid/StatePlan/Sec2/MMDL/GeneralEligibilityRequirements-Application.pdf" target="_blank" rel="noopener noreferrer">General Eligibility Requirements - Application</a></li>
+                                    <li>
+                                        MACPro - Eligibility and Enrollment Processes
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/24-0004MACProStatePlanPage-ContinuousEligiblity.pdf" target="_blank" rel="noopener noreferrer">Continuous Eligibility for Children</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/MMDL/12MonthsPostpartumContinuousEligibilityforPregnantWomen.pdf" target="_blank" rel="noopener noreferrer">Continuous Eligibility for Pregnant Women and Extended Postpartum Coverage</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        MACPro &ndash; Eligibility Groups &ndash; Mandatory Coverage
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2023/23-0004/23-0004FormerFosterCareChildren.pdf" target="_blank" rel="noopener noreferrer">Former Foster Care Children</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/MACPro/QualifiedMedicareBeneficiaries.pdf" target="_blank" rel="noopener noreferrer">Qualified Medicare Beneficiaries</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/MACPro/QualifiedDisabledandWorkingIndividuals.pdf" target="_blank" rel="noopener noreferrer">Qualified Disabled and Working Individuals</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/MACPro/SpecifiedLowIncomeMedicareBeneficiaries.pdf" target="_blank" rel="noopener noreferrer">Specified Low Income Medicare Beneficiaries</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/MACPro/QualifyingIndividuals.pdf" target="_blank" rel="noopener noreferrer">Qualifying Individuals</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        MACPro &ndash; Eligibility Groups &ndash; Optional Coverage
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/Act421CMO.pdf" target="_blank" rel="noopener noreferrer">Children under Age 19 with a Disability</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/AgeandDisability-RelatedPovertyLevel.pdf" target="_blank" rel="noopener noreferrer">Age and Disability-Related Poverty Level</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/IndividualsEligibleforCashExceptforInstitutionalization.pdf" target="_blank" rel="noopener noreferrer">Individuals Eligible for Cash Except for Institutionalization</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/IndividualsinInstitutionsEligibleunderaSpecialIncomeLevel.pdf" target="_blank" rel="noopener noreferrer">Individuals in Institutions Eligible under a Special Income Level</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/MedicallyNeedyPopulationBasedonAgeBlindnessorDisability.pdf" target="_blank" rel="noopener noreferrer">Medically Needy Population Based on Age, Blindness or Disability</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/MedicallyNeedy.pdf" target="_blank" rel="noopener noreferrer">Medically Needy</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalEligibilityGroups.pdf" target="_blank" rel="noopener noreferrer">Optional Eligibility Groups</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/PACEParticipants.pdf" target="_blank" rel="noopener noreferrer">PACE Participants</a></li>
+                                            <li><a href="/assets/medicaid/StatePlan/Sec2/OptionalCoverage/TickettoWorkBasic.pdf" target="_blank" rel="noopener noreferrer">Ticket to Work Basic</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        MMDL SPAs
+                                        <ul>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/A1-A3MedicaidAdministration.pdf" target="_blank" rel="noopener noreferrer">A1 - A3 Medicaid Administration</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S10MAGI-BasedIncomeMethodologies.pdf" target="_blank" rel="noopener noreferrer">S10 - MAGI-Based Income Methodologies</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S14AFDCIncomeStandards.pdf" target="_blank" rel="noopener noreferrer">S14 - AFDC Income Standards</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S21PresumptiveEligibilitybyHospitals.pdf" target="_blank" rel="noopener noreferrer">S21 - Presumptive Eligibility by Hospitals</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S25EligibilityGroups-MandatoryCoverage-ParentsandOtherCaretakerRelatives.pdf" target="_blank" rel="noopener noreferrer">S25 - Mandatory Coverage - Parents and Other Caretaker Relatives</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S28EligibilityGroups-MandatoryCoverage-PregnantWomen.pdf" target="_blank" rel="noopener noreferrer">S28 - Mandatory Coverage - Pregnant Women</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S30EligibilityGroups-MandatoryCoverage-InfantsandChildrenUnderAge19.pdf" target="_blank" rel="noopener noreferrer">S30 - Mandatory Coverage - Infants and Children Under Age 19</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S32EligibilityGroups-MandatoryCoverage-AdultGroup.pdf" target="_blank" rel="noopener noreferrer">S32 - Mandatory Coverage - Adult Group</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S50EligibilityGroups-OptionsforCoverage-Individualsabove133FPL.pdf" target="_blank" rel="noopener noreferrer">S50 - Options for Coverage - Individuals above 133 FPL</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S51EligibilityGroups-OptionsforCoverage-OptionalCoverageofParentsandOtherCaretakerRelatives.pdf" target="_blank" rel="noopener noreferrer">S51 - Options for Coverage - Optional Coverage of Parents and Other Caretaker Relatives</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S52EligibilityGroups-OptionsforCoverage-ReasonableClassificationofIndividualsUnderAge21.pdf" target="_blank" rel="noopener noreferrer">S52 - Options for Coverage - Reasonable Classification of individuals Under Age 21</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S53EligibilityGroups-OptionsforCoverage-ChildrenwithNonIV-EAdoptionAssistance.pdf" target="_blank" rel="noopener noreferrer">S53 - Options for Coverage - Children with Non IV-E Adoption Assistance</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S54EligibilityGroups-OptionsforCoverage-OptionalTargetedLowIncomeChildren.pdf" target="_blank" rel="noopener noreferrer">S54 - Options for Coverage - Optional Targeted Low Income Children</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S55EligibilityGroups-OptionsforCoverageIndividualswithTuberculosis.pdf" target="_blank" rel="noopener noreferrer">S55 - Options for Coverage - Individuals with Tuberculosis</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S57EligibilityGroups-OptionsforCoverage-IndependentFosterCareAdolescents.pdf" target="_blank" rel="noopener noreferrer">S57 - Options for Coverage - Independent Foster Care Adolescents</a></li>
+                                            <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S59EligibilityGroups-OptionsforCoverage-IndividualsEligibleforFamilyPlanningServices.pdf" target="_blank" rel="noopener noreferrer">S59 - Options for Coverage - Individuals Eligible for Family Planning Services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S88Non-FinancialEligibilityStateResidency.pdf" target="_blank" rel="noopener noreferrer">S88 - Non-Financial Eligibility State Residency</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S89Non-FinancialEligibilityCitizenshipandNon-CitizenEligibility.pdf" target="_blank" rel="noopener noreferrer">S89 - Non-Financial Eligibility Citizenship and Non-citizen Eligibility</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec2/MMDL/S94GeneralEligibilityRequirements-EligibilityProcess.pdf" target="_blank" rel="noopener noreferrer">S94 - General Eligibility Requirements - Eligibility Process</a></li>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">Section 3 - Services: General Provisions</span></p>
+                                <ul>
+                                    <li>
+                                        Section 3.1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.1.pdf" target="_blank" rel="noopener noreferrer">Amount, Duration and Scope of Services</a><br />
+                                        <ul>
+                                            <li>
+                                                Attachment 3.1a&nbsp; - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment_3.1-A-Amount_Duration_and_Scope_of_Services_for_Categorically_Needy.pdf" target="_blank" rel="noopener noreferrer">Amount Duration and Scope of Services for Categorically Needy</a><br />
+                                                <ul>
+                                                    <li>Item 1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem1.pdf" target="_blank" rel="noopener noreferrer">Inpatient Hospital Services</a></li>
+                                                    <li>Item 2a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment_3.1-A_Item_2a_1-12-16.pdf" target="_blank" rel="noopener noreferrer">Outpatient Hospital Services</a></li>
+                                                    <li>Item 2b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem2b.pdf" target="_blank" rel="noopener noreferrer">Rural Health Clinic Services</a></li>
+                                                    <li>Item 2c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem2c.pdf" target="_blank" rel="noopener noreferrer">FQHC Services</a></li>
+                                                    <li>Item 3 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem3.pdf" target="_blank" rel="noopener noreferrer">Other Laboratory and X-Ray Services</a></li>
+                                                    <li>Item 4a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem4a.pdf" target="_blank" rel="noopener noreferrer">Skilled Nursing and Surgical Services for Individuals 21 or Older</a></li>
+                                                    <li>Item 4b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem4b.pdf" target="_blank" rel="noopener noreferrer">EPSDT Services</a></li>
+                                                    <li>Item 4c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem4c.pdf" target="_blank" rel="noopener noreferrer">Family Planning</a></li>
+                                                    <li>Item 5 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem5.pdf" target="_blank" rel="noopener noreferrer">Physician Services</a></li>
+                                                    <li>Item 5b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem5b.pdf" target="_blank" rel="noopener noreferrer">Medical and Surgical Services Furnished by a Dentist</a></li>
+                                                    <li>Item 6 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem6.pdf" target="_blank" rel="noopener noreferrer">Medical and Remedial Care Furnished by Other Licensed Practitioners</a></li>
+                                                    <li>Item 7 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem7.pdf" target="_blank" rel="noopener noreferrer">Home Health Care Services</a></li>
+                                                    <li>Item 9 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem9.pdf" target="_blank" rel="noopener noreferrer">Clinic Services</a></li>
+                                                    <li>Item 12a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment_3.1-A-Item_12a-Prescribed_Drugs.pdf" target="_blank" rel="noopener noreferrer">Prescribed Drugs</a></li>
+                                                    <li>Item 12b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem12b.pdf" target="_blank" rel="noopener noreferrer">Dentures</a></li>
+                                                    <li>Item 12c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem12c.pdf" target="_blank" rel="noopener noreferrer">Prosthetic Devices</a></li>
+                                                    <li>Item 13c - <a href="/assets/medicaid/StatePlan/Sec3/Attachment3.1-AItem13c.pdf" target="_blank" rel="noopener noreferrer">Preventive Services</a></li>
+                                                    <li>Item 13d - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1-A-Item13d-RehabilitativeServices.pdf" target="_blank" rel="noopener noreferrer">Rehabilitative Services</a></li>
+                                                    <li>Item 14a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem14a.pdf" target="_blank" rel="noopener noreferrer">Services for Individuals 65 or older in Institutions for Mental Diseases</a></li>
+                                                    <li>Item 15 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem15.pdf" target="_blank" rel="noopener noreferrer">Intermediate Care Facility Services</a></li>
+                                                    <li>Item 16 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem16.pdf" target="_blank" rel="noopener noreferrer">Inpatient Psychiatric Facility Services for Under 21</a></li>
+                                                    <li>Item 17 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem17.pdf" target="_blank" rel="noopener noreferrer">Nurse Midwife Services</a></li>
+                                                    <li>Item 18 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem18.pdf" target="_blank" rel="noopener noreferrer">Hospice Care Services</a></li>
+                                                    <li>Item 19 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem19.pdf" target="_blank" rel="noopener noreferrer">Targeted Case Management Services</a></li>
+                                                    <li>Item 19b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem19b.pdf" target="_blank" rel="noopener noreferrer">Special Tuberculosis-Related Services for Tuberculosis Infected Individuals</a></li>
+                                                    <li>Item 20a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem20a.pdf" target="_blank" rel="noopener noreferrer">Pregnancy Related and Postpartum Services</a></li>
+                                                    <li>Item 20b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem20b.pdf" target="_blank" rel="noopener noreferrer">Extended Services for Pregnant Women</a></li>
+                                                    <li>Item 23 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem23.pdf" target="_blank" rel="noopener noreferrer">Nurse Practitioner Services</a></li>
+                                                    <li>Item 24a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Amend2021/21-0027/Attachment3.1-A-Item24a-MedicalTransportationServices.pdf" target="_blank" rel="noopener noreferrer">Medical Transportation Services</a></li>
+                                                    <li>Item 24d - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1AItem24d.pdf" target="_blank" rel="noopener noreferrer">Skilled Nursing Facility Services for Individuals Under 21</a></li>
+                                                    <li>Item 26 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1-AItem26.pdf" target="_blank" rel="noopener noreferrer">Personal Care Services&nbsp; </a></li>
+                                                    <li>Supplement 1 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment_3.1-A_Supplement_1_TargetedCaseManagement.pdf" target="_blank" rel="noopener noreferrer">Targeted Case Management</a></li>
+                                                    <li>Supplement 2 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1ASupplement2.pdf">Self-Directed Personal Assistance Services</a></li>
+                                                    <li>Supplement 3 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1ASupplement3.pdf" target="_blank" rel="noopener noreferrer">PACE</a></li>
+                                                    <li>Supplement 4 - <a href="/assets/medicaid/StatePlan/Sec3/Attachment3.1-A_Supplement4_Medication-AssistedTreatment.pdf">Medication-Assisted Treatment</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>Attachment 3.1b - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1B.pdf" target="_blank" rel="noopener noreferrer">Amount, Duration and Scope of services Provided to Medically Needy Groups</a></li>
+                                            <li>Attachment 3.1c - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1C.pdf" target="_blank" rel="noopener noreferrer">Standards and Methods for Assuring High Quality Care</a></li>
+                                            <li>Attachment 3.1d - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Amend2021/21-0027/Attachment3.1-DMethodsofProvidingTransportation.pdf" target="_blank" rel="noopener noreferrer">Methods of Providing Transportation</a></li>
+                                            <li>Attachment 3.1e - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1E.pdf" target="_blank" rel="noopener noreferrer">Standards for Coverage of Organ&nbsp;Transplants</a></li>
+                                            <li>Attachment 3.1f - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.1-F.pdf" target="_blank" rel="noopener noreferrer">Managed Care</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p>Section 3.2 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.2.pdf" target="_blank" rel="noopener noreferrer">Coordination of Medicaid with Medicare and Other Insurance</a></p>
+                                        <ul>
+                                            <li>Attachment 3.2a - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Attachment3.2A.pdf" target="_blank" rel="noopener noreferrer">Coordination of Medicare</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Section 3.3 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.3.pdf" target="_blank" rel="noopener noreferrer">Medicaid for Individuals 65 or Over in Institutions for Mental Disease</a></li>
+                                    <li>Section 3.4 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.4.pdf" target="_blank" rel="noopener noreferrer">Special Requirements Applicable to Sterilization Procedures</a></li>
+                                    <li>Section 3.5 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.5.pdf" target="_blank" rel="noopener noreferrer">Families Receiving Extended Medicaid Benefits</a></li>
+                                    <li>Section 3.6 - <a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/Section3.6.pdf" target="_blank" rel="noopener noreferrer">Additional Amounts for Nursing Facility Residents</a></li>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">Section&nbsp;3 - MMDL System Approvals</span></p>
+                                <p class="sub-head">Alternative Benefit Plan (ABP)</p>
+                                <ul>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP1AlternativeBenefitPlanPopulations.pdf" target="_blank" rel="noopener noreferrer">ABP1 - Alternative Benefit Plan Populations</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP2aVoluntaryBenefitPackageSelectionAssurances-EligibilityGroupUnder1902.pdf" target="_blank" rel="noopener noreferrer">ABP2a - Voluntary Benefit Package Selection Assurances - Eligibility Group Under 1902</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP3SelectionofBenchmarkBenefitPackageorBenchmark-EquivalentBenefitPackage.pdf" target="_blank" rel="noopener noreferrer">ABP3 - Selection of Benchmark Benefit Package or Benchmark-Equivalent Benefit Package</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP4AlternativeBenefitPlanCost-Sharing.pdf" target="_blank" rel="noopener noreferrer">ABP4 - Alternative Benefit Plan Cost-Sharing</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP5BenefitsDescription.pdf" target="_blank" rel="noopener noreferrer">ABP5 - Benefits Description</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP7BenefitsAssurances.pdf" target="_blank" rel="noopener noreferrer">ABP7 - Benefits Assurances</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP8ServiceDeliverySystems.pdf" target="_blank" rel="noopener noreferrer">ABP8 - Service Delivery Systems</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP9EmployerSponsoredInsuranceandPaymentofPremiums.pdf" target="_blank" rel="noopener noreferrer">ABP9 - Employer Sponsored Insurance and Payment of Premiums</a></li>
+                                    <li><a class="lnk-accent01" href="/assets/medicaid/StatePlan/Sec3/MMDL/ABP11PaymentMethodology.pdf" target="_blank" rel="noopener noreferrer">ABP11 - Payment Methodology</a></li>
+                                </ul>
+                                <p><span class="wysiwyg-subbar"><span style="color: #3b3b3b;"><a class="lnk-accent01" href="/UnderConstruction"><span style="color: #333333;">Continue to State Plan Sections 4 - 7</span></a></span></span></p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="push"></div>
+            <a href="/UnderConstruction" class="feedback-modal-btn" data-toggle="modal" data-target="#feedback-modal">Feedback</a>
+            <span data-acsb="trigger" class="side-accessibility-btn" title="Accessibility Options">Accessibility</span>
+        </section>
+
+        <!--/CONTENT-->
+    </div>
+    <!--FOOTER-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="txt">
+                    <!--Google Translate-->
+                    <div style="text-align:center; display:block; padding: 12px 0 10px 23px;">
+                        <div id="google_translate_element"></div><script type="text/javascript">
+                                                                     function googleTranslateElementInit() {
+                                                                         new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'de,el,en,es,fr,it,ja,ko,la,tl,vi,zh-CN,zh-TW,ar', gaTrack: true, gaId: 'UA-3632381-1' }, 'google_translate_element');
+                                                                     }
+                        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </div>
+                    <a href="/UnderConstruction">Privacy Policy</a> | <a href="/UnderConstruction">Disclaimer</a><br>
+                    @* <strong>Mailing Address:</strong> Louisiana Department of Health | P. O. Box 629 | Baton Rouge, LA 70821-0629<br><address> *@
+                    <strong>Mailing Address:</strong> Kansas Mailing address<br><address>
+                        @* <strong>Physical Address:</strong> 628 N. 4th Street | Baton Rouge, LA 70802 | PHONE: 225-342-9500 | FAX: 225-342-5568<br>  <strong>Medicaid Customer Service </strong><em>1-888-342-6207</em> |  <strong>Healthy Louisiana</strong> <em>1-855-229-6848</em> *@
+                        <strong>Physical Address:</strong> Office address<br>  <strong>Medicaid Customer Service PROVIDER</strong><em>800 933 6593</em> |  <strong>MEMBER</strong> <em>800 766 9012</em>
+                        <br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="social">
+                            <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.62 204.61">
+                                    <defs>
+                                        <style>
+                                            .cls-1 {
+                                                fill: #fff;
+                                            }</style>
+                                    </defs>
+                                    <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M102.32,204.36c-13.82,0-27.68.64-41.46-.13A63.81,63.81,0,0,1,.31,141.07q-.6-38.71,0-77.46A63.93,63.93,0,0,1,62.06.49c18.11-.7,36.37-.8,54.4.74,30,2.55,54.48,29.76,55.65,59.89.44,11.27,3.73,14.48,14.91,14.52,2,0,4,0,6,0,7.23.28,11.38,4,11.41,11.11.08,20,.58,40-.48,59.94-1.57,29.39-27.83,55.54-57.18,57.29-14.77.87-29.63.15-44.45.15Zm.3-75.09c-12.32,0-24.63-.1-36.95,0-6.85.08-11.47,4.48-11.59,10.55s4.42,10.92,11.15,11c24.8.15,49.61.1,74.41,0a10.49,10.49,0,0,0,10.25-6.67c3.14-7.32-2.15-14.73-10.81-14.86C126.93,129.13,114.78,129.27,102.62,129.27ZM86.48,54.09c-7,0-14-.09-21,0-6.7.11-11.41,4.58-11.46,10.63,0,5.87,4.25,10.59,10.8,10.72q21.43.42,42.9,0c6.58-.13,10.73-4.82,10.65-10.82-.09-6.15-4.66-10.44-11.48-10.54S93.3,54.08,86.48,54.09Z" /></g></g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="siteCredits"><a href="#" target="_blank">Kansas Medicaid Site</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--/FOOTER-->
+
+
+    <div id="feedback-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/retina.min.js"></script>
+    <script src="/js/navigation.js"></script>
+    <script src="/js/jquery.placeholder.min.js"></script>
+    <script src="/js/common.js?u=2"></script>
+    <script src="/js/feedback.js"></script>
+    <script src="/js/subhome_carousel.js?u=1"></script>
+
+    @*     <script src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+
+    <script>
+    //accessibility button - code from client
+    (function(document, tag) { var script = document.createElement(tag); var element = document.getElementsByTagName('body')[0]; script.src = 'https://acsbap.com/api/app/assets/js/acsb.js'; script.async = true; script.defer = true; (typeof element === 'undefined' ? document.getElementsByTagName('html')[0] : element).appendChild(script); script.onload = function() { acsbJS.init({ statementLink : '', feedbackLink : '', footerHtml : '', hideMobile : false, hideTrigger : true, language : 'en', position : 'right', leadColor : '#0d2b3f', triggerColor : '#16828c', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'center', triggerIcon : 'settings', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'center', triggerOffsetX : 0, triggerOffsetY : 0, triggerRadius : '0' } }); };}(document, 'script'));
+    </script>
+    <script src="https://df-messenger-prod-j6axfe3vgq-ue.a.run.app/index.js"></script> *@
+    <!-- SUB HOME -->
+
+</body>
+</html>
