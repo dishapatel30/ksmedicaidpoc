@@ -24,7 +24,13 @@ namespace KansasMedicaid.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [Route("UnderConstructionTop")]
+        public IActionResult UnderConstructionTop()
+        {
+            return View();
+        }
+        [Route("Top")]
+        public IActionResult Top()
         {
             return View();
         }
