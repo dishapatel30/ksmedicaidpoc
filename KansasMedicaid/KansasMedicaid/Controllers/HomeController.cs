@@ -24,13 +24,13 @@ namespace KansasMedicaid.Controllers
             return View();
         }
 
-        [Route("IndexHMenu")]
-        public IActionResult IndexHMenu()
+        [Route("UnderConstructionTop")]
+        public IActionResult UnderConstructionTop()
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        [Route("Top")]
+        public IActionResult Top()
         {
             return View();
         }
