@@ -35,6 +35,12 @@ namespace KansasMedicaid.Controllers
             return View();
         }
 
+        [Route("IndexHMenu")]
+        public IActionResult IndexHMenu()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
