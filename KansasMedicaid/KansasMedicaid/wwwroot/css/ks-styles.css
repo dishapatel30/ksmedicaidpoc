@@ -3574,15 +3574,16 @@ a:focus {
 .secondary-nav ul li.menu-item.dropdown-submenu {
   position: relative;
 }
-.secondary-nav ul li.menu-item.dropdown-submenu > .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -5px;
-  margin-left: 0px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
+    .secondary-nav ul li.menu-item.dropdown-submenu > .dropdown-menu {
+        /*top: 0;
+        left: 100%;Commented for submenu to open in bottom */
+        position: relative; /* Added for submenu to open in bottom */
+        margin-top: -5px;
+        margin-left: 0px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
 @media (max-width: 1110px) {
   .secondary-nav ul li.menu-item.dropdown-submenu > .dropdown-menu {
     left: 0;
