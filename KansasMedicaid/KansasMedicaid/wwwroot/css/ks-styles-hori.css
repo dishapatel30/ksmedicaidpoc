@@ -21530,7 +21530,7 @@ hr.spacer {
 }
 
     .secondary-nav ul li {
-        float: left;
+/*        float: left; Commented for top submenu drop */
     }
 
 
