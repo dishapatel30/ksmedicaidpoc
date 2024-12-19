@@ -1,0 +1,606 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kansas Medicaid State Plan A | KS Dept. of Health</title>
+
+    <meta name="description" content="The Kansas Department of Health protects and promotes health and ensures access to medical, preventive and rehabilitative services for all citizens of the State of Louisiana." />
+
+    <meta property="og:image" content="logo.png" />
+
+    @*  <link href="/css/bootstrap.min.css" rel="stylesheet">*@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600|Playfair+Display:400' rel='stylesheet' type='text/css'>
+    <link href="/css/ks-styles.css?v=8" rel="stylesheet" type="text/css">
+    <link href="/css/wysiwyg.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+    <![endif]-->
+    <!-- Google Tag Manager -->
+    @* <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6QZVTF');</script>
+    <!-- End Google Tag Manager -->
+    <!-- MESH Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PHQ8XH2');</script>
+    <!-- End MESH Google Tag Manager -->
+    <!-- ROCKIT SCIENCE Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16661134212"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16661134212'); </script>
+    <link rel="stylesheet" href="https://df-messenger-prod-j6axfe3vgq-ue.a.run.app/style.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script> *@
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    @* <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6QZVTF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> *@
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="force-wrapper">
+        <!--HEADER-->
+        <header id="header" class="subhome accent-blue">
+            <div class="container">
+                <div class="logo-bar">
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-6 mob-wdth">
+                            <div class="logo-wrap">
+                                <div class="seal"><a href="#"><img src="/images/state-seal.gif" alt="Kansas State Seal"></a></div>
+                                <div class="logo"><a href="/"><img src="/images/kansas-logo.svg" alt="Department of Health and Hospitals logo"></a></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-6 mob-wdth">
+                            <div class="rt-content">
+                                <div class="wrapper">
+                                    <div class="sec-bar sec-titles pull-right">
+                                        @* <span>Surgeon&nbsp;General&nbsp;<strong>RALPH&nbsp;L.&nbsp;ABRAHAM,&nbsp;M.D.</strong></span> <span class="sec-divider">|</span> <span>Secretary&nbsp;<strong>MICHAEL&nbsp;HARRINGTON</strong></span> *@
+                                        @* <span>Surgeon&nbsp;General&nbsp;<strong>ABC M.D.</strong></span> <span class="sec-divider">|</span>  *@<span>Secretary&nbsp;<strong>XYZ</strong></span>
+
+                                    </div>
+                                </div>
+                                @* <div class="wrapper">
+                                <a class="pull-right" href="/">
+                                <div class="btn dhh"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back to KS</div>
+                                </a>
+                                </div> *@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-header">
+                <div class="container">
+                    <div class="wrapper">
+                        <div>
+                            <div>
+
+                                <div class="title">Kansas Department of Health and Environment (Medicaid)</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="breadcrumb-bar">
+                <div class="container">
+
+                    @* <a href="#">Kansas.gov</a> &gt; <a href="/">KS</a>
+                    &gt; <a href="/index.cfm/subhome/1">Kansas Department of Health and Environment (Medicaid)</a> *@
+                    <span>Kansas Department of Health and Environment (Medicaid)</span>
+                </div>
+            </div>
+        </header>
+        <!--/HEADER-->
+        <!--CONTENT-->
+
+        <section id="news" class="accent-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle secondary-collapse collapsed" data-toggle="collapse" data-target="#secondary-nav"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        </div>
+                        <nav id="secondary-nav" class="secondary-nav collapse navbar-collapse">
+
+                            <ul>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/" tabindex="-1" shpid="1" class="link-off">About Medicaid</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Providers </a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Children &amp; Families</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Women</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">For Long-Term Care</a>
+
+                                    <ul class="dropdown-menu">
+
+                                        <li class="menu-item"><a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Estate Recovery</a></li>
+
+                                    </ul>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Medicaid Behavioral Health</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Pharmacy</a>
+
+                                </li>
+
+                                <li class="menu-item dropdown-submenu">
+                                    <a href="/UnderConstruction" tabindex="-1" shpid="1" class="link-off">Report Abuse or Neglect</a>
+
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                    <div class="col-md-10 col-sm-9">
+
+
+                        <div class="row main-content">
+                            <div class="col-sm-12">
+                                <p><span class="head">State Plan Amendments 2024</span></p>
+                                <table style="border: 1px solid #817e7f; height: 29px; background-color: #a0c8cc;" border="1" width="348" align="right">
+                                    <tbody>
+                                        <tr style="height: 28px;">
+                                            <td style="width: 146px; height: 29px; text-align: center; background-color: #1275b3;"><a class="lnk-accent01" href="/index.cfm/page/1718"><span style="color: #ffffff;">Medicaid State Plan</span></a></td>
+                                            <td style="width: 108px; height: 29px; text-align: center; background-color: #00ccff;"><strong class="lnk-accent01"><span style="color: #3b3b3b;"><span style="color: #ffffff;">Amendments</span></span></strong></td>
+                                            <td style="width: 93px; height: 29px; text-align: center; background-color: #1275b3;"><a class="lnk-accent01" href="/index.cfm/page/1708"><span style="color: #ffffff;">Policy Home</span></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="normal">&nbsp;</p>
+                                <table style="text-align: right; border: 1px solid #837c7f; width: 516px; height: 31px; background-color: #1275b3;" border="2">
+                                    <tbody class="lnk-accent01">
+                                        <tr style="height: 16px;">
+                                            <td style="width: 22px; height: 16px; background-color: #00ccff; text-align: center;"><strong><span style="color: #ffffff;">2024</span></strong></td>
+                                            <td style="width: 10px; height: 16px; background-color: #1275b3; text-align: center;"><a href="/page/medicaid-state-plan-amendments-2023"><span style="color: #ffffff;">2023</span></a></td>
+                                            <td style="width: 52px; height: 16px; background-color: #1275b3; text-align: center;"><a href="/page/4382"><span style="color: #ffffff;">2022</span></a></td>
+                                            <td style="width: 38px; height: 16px; background-color: #1275b3; text-align: center;"><a href="/page/4146"><span style="color: #ffffff;">2021</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/3832"><span style="color: #ffffff;">2020</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/3537"><span style="color: #ffffff;">2019</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/2992"><span style="color: #ffffff;">2018</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/2661"><span style="color: #ffffff;">2017</span></a></td>
+                                            <td style="width: 38px; height: 16px;"><span style="color: #ffffff;"><a href="/index.cfm/page/2301"><span style="color: #ffffff;">2016</span></a></span></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/2110"><span style="color: #ffffff;">2015</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/1496"><span style="color: #ffffff;">2014</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/1720"><span style="color: #ffffff;">2013</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/1739"><span style="color: #ffffff;">2012</span></a></td>
+                                            <td style="width: 38px; height: 16px; text-align: center;"><a href="/index.cfm/page/1719"><span style="color: #ffffff;">2011</span></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><em>In compliance with Act 212 of the 2013 Regular Session of the Louisiana Legislature, LDH has made State Plan amendments </em><em>(SPA) </em><em>available for public view dating back to July 1, 2013. Since the date of implementation, the Department has posted pending SPAs. Some amendments are still pending from prior years, others have been approved since </em><em>July 1, 2013</em><em> and posted to the site. It should be noted that the SPAs are listed by calendar year as they are created under transmittal numbers indicating the year and chronological order of creation during that year. SPAs approved prior to </em><em>July 1, 2013 </em><em>can be found within the main text of the&nbsp;<a href="/index.cfm/page/1718">comprehensive State Plan</a>.</em></p>
+                                <p>&nbsp;</p>
+                                <p><span class="wysiwyg-subbar">24-0001&nbsp; Eligibility – Incurred Medical and Remedial Care Expenses&nbsp;&nbsp;<span style="color: #008000;">*APPROVED*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/24-0001CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 26, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/24-0001TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – October 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/24-0001PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - October 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/Supplement3toAttachment2.6-Aredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> –&nbsp;March 26, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/RAI-LA-24-0001.pdf" target="_blank" rel="noopener noreferrer">RAI Request</a> - June 18, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/24-0001_RAI_Response.pdf" target="_blank" rel="noopener noreferrer">RAI Response</a> - July 26, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0001/Approval-LA-24-0001-SPA.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - September 17, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0002&nbsp; Professional Services &nbsp;&nbsp;<span style="color: #008000;">*APPROVED*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/24-0002CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 14, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/24-0002TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – September 21, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/24-0002PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - September 20, 2023</li>
+                                            <li>
+                                                Redlined State Plan Pages –&nbsp;March 14, 2024
+                                                <ul>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/Attachment3.1-AItem4.bPage8redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1 - A Item 4b Page 8</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/Attachment4.19-BItem4bPage2redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 4.19 - B Item 4b Page 2</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/Attachment4.19-BItem4bPage3redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 4.19 - B Item 4b Page 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/24-0002ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a>&nbsp;– March 14, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0002/24-0002CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval </a>- May 20, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0003&nbsp; Home Health Services &nbsp;<span style="color: #008000;">*APPROVED*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 4, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> –&nbsp;February 22, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - October 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003Attachment4.19-BItem7Page6Redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> –&nbsp;March 4, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a>&nbsp;– January 31, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0003/24-0003CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - May 30, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0004&nbsp; Medicaid Continuous Eligibility&nbsp;&nbsp;<span style="color: #008000;">*APPROVED*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0004/24-0004CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0004/24-0004TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – January 24, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0004/24-0004CMSApprovalPacket.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - May 14, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0005&nbsp; CHIP Continuous Eligibility &nbsp;<span style="color: #ff0000;">*Pending*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0005/24-0005CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; June 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0005/24-0005TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– January 24, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0005/24-0005CHIPStatePlanPagesredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– June 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0005/LA-24-0005RAILetter.pdf" target="_blank" rel="noopener noreferrer">RAI Letter</a> - August 9, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0005/24-0005RAIResponse11.18.24_signed.pdf" target="_blank" rel="noopener noreferrer">RAI Response</a> - December 2, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0007&nbsp; Disproportionate Share Hospital Payments – Northern Area Psychiatric Hospitals&nbsp;<span style="color: #008000;">*APPROVED*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/24-0007CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 25, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/24-0007TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – November 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/24-0007PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - November 20, 2023</li>
+                                            <li>
+                                                Redlined State Plan Pages –&nbsp;March 25, 2024
+                                                <ul>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/Attachment4.19-AItem1Page10dredlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 4.19 - A Item 1 Page 10</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/Attachment4.19-AItem1Pages10k11-12redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 4.19 - A Item 1 Pages 11-12</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/24-0007StandardFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a>&nbsp;– March 25, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0007/24-0007CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - April 19, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0008&nbsp; Intermediate Care Facilities for Individuals with Intellectual Disabilities – Leave of Absence Days&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/24-0008CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/24-0008TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – November 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/24-0008PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - November 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/24-0008Attachment4.19-CPage1-1aredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> –&nbsp;March 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/24-0008MedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a>&nbsp;– March 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0008/LA24-0008CMSAPPROVAL.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - May 29, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0009&nbsp; Inpatient Teaching Hospitals&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/24-0009CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; March 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/24-0009TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – November 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/24-0009PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - November 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/Attachment4.19-AItem1Pages10m1-10m2redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> –&nbsp;March 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/24-0009ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions&nbsp;</a>– March 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0009/24-0009CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - March 27, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0010&nbsp; Ambulatory Surgical Centers Reimbursement Methodology&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; March 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – December 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - December 20, 2023</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010Attachment4.19-BItem9Page4aredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>–&nbsp;March 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a>&nbsp;– March 28, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0010/24-0010CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval </a>- June 10, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0011&nbsp; Children’s and Adult Behavioral Health Services&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/24-0011CMSsubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; June 18, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/24-0011TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– April 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/24-0011PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice </a>- April 20, 2024</li>
+                                            <li>
+                                                Redlined State Plan Pages – June 18, 2024
+                                                <ul>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/Attachment3.1-AItem4.bPage9-9bRedlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1 - A Item 4 b page 9-9b</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/Attachment3.1-AItem6pages6-7redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1 - A Item 6 pages 6-7</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/Attachment3.1-AItem13.dPages13Redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1 - A Item 13 d page 13</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0011/CMSApprovalLA-24-0011.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - August 15, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0012&nbsp; Inpatient Hospital Services – High Medicaid Utilization Academic Hospitals&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/24-0012CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/24-0012TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– May 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/24-0012PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - May 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/24-0012Attachment4.19-AItem1Page8j_redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> – July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/24-0012MedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions&nbsp;</a>– July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0012/LA24-0012APPROVED.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - September 16, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0013&nbsp; ICF/IID Reimbursement Methodology&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/24-0013CMSsubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; June 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/24-0013TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– May 8, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/24-0013PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - May 8, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/24-0013Attachment4.19-DPage26redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> – June 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/24-0013ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions&nbsp;</a>– June 12, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0013/LA24-0013APPROVED.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - July 18, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0014&nbsp; Third Party Liability&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0014/24-0014CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal</a> –&nbsp; July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0014/TribalNotice6.17.24.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– June 17, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0014/SupplementtoAttachment4.22redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0014/24-0014CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - August 12, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0015&nbsp; Hospice Care Services&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/24-0015CMSSubmittalPacket.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; May 9, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/24-0015TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice</a> – April 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/24-0015PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - April 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/Attachment4.19-BItem18pages1-2redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> –&nbsp;May 9, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/24-0015MedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions&nbsp;</a>– May 9, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0015/24-0015CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - July 17, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0016&nbsp; Outpatient Hospital Services – High Medicaid Utilization Academic Hospitals&nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/24-0016CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/24-0016TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– May 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/24-0016PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice</a> - May 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/24-0016Attachment4.19-BItem2aPages14-15redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> – July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/24-0016MedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions&nbsp;</a>– July 2, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0016/LA_24-0016_APPROVED.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - September 13, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0018&nbsp; Pharmacy Benefits Management Program – Vaccine Administration and Fees &nbsp; &nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/24-0018CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; September 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/24-0018TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– August 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/24-0018PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice </a>- August 20, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/Attachment4.19-BItem6Page11redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– September 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/24-0018MedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions</a> - September 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0018/LA24-0018APPROVED.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a>- October 17, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0019&nbsp; Pharmacy Benefits Management Program – Drug Shortages &nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0019/24-0019CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; August 21, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0019/24-0019TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– July 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0019/24-0019PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice </a>- July 19, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0019/Attachment3.1-AItem12aPage4redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages</a> – August 21, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0019/LASPA24-0019ApprovalPackage.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - October 30, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0022&nbsp; Inpatient Hospital Services - Other Rural Hospitals&nbsp; &nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022TribalNoticerev9.30.24.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– September 16, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice </a>- September 16, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022Attachment4.19-AItem1Pg8kredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions </a>- September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0022/24-0022CMSAPPROVAL.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - December 13, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0023&nbsp; Outpatient Hospital Service - Other Rural Hospitals&nbsp; &nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/24-0023CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/24-0023TribalNoticerev9.30.24.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– September 16, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/24-0023PublicNotice.pdf" target="_blank" rel="noopener noreferrer">Public Notice </a>- September 16, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/Attachment4.19-BItem2aPages16-17redlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/24-0023ResponsetoMedicaidFundingQuestions.pdf" target="_blank" rel="noopener noreferrer">Response to Standard Funding Questions </a>- September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0023/24-0023CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - November 26, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0024&nbsp; Federal Medical Assistance Percentage (FMAP)&nbsp; &nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0024/24-0024CMSSubmittalPacket.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0024/24-0024TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– September 24, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0024/24-0024AttachmentDredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– September 30, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0024/24-0024CMSApproval.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - October 9, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0025&nbsp; Behavioral Health Services – Peer Support Services&nbsp; &nbsp;&nbsp;<span><span style="color: #008000;">*APPROVED*</span></span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/24-0025CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; November 7, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/24-0025TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>–&nbsp; October 2, 2024</li>
+                                            <li>
+                                                Redlined State Plan Pages – November 7, 2024
+                                                <ul>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/Attachment3.1-AItem13dPage19redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1-A Item 13d Page 19</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/Attachment3.1-AItem13dPage22redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1-A Item 13d Page 22</a></li>
+                                                    <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/Attachment3.1-AItem13dPages25-26redlined.pdf" target="_blank" rel="noopener noreferrer">Attachment 3.1-A Item 13d Pages 25-26</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0025/Approval-LA-24-0025-SPA.pdf" target="_blank" rel="noopener noreferrer">CMS Approval</a> - December 16, 2024&nbsp;</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                                <p><span class="wysiwyg-subbar">24-0027&nbsp; Opioid Treatment Programs&nbsp; &nbsp;<span style="color: #ff0000;">*Pending*</span></span></p>
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0027/24-0027CMSSubmittal.pdf" target="_blank" rel="noopener noreferrer">Initial Submittal </a>–&nbsp; December 3, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0027/24-0027TribalNotice.pdf" target="_blank" rel="noopener noreferrer">Tribal Notice </a>– November 13, 2024</li>
+                                            <li><a href="/assets/medicaid/StatePlan/Amend2024/24-0027/Attachment3.1-AItem13.dPages11b11d-11eredlined.pdf" target="_blank" rel="noopener noreferrer">Redlined State Plan Pages </a>– December 3, 2024</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <df-messenger class="df-messenger-class" location="us-east1" df-cx="true" project-id="ccai-prd" intent="WELCOME" agent-id="182f9de4-3640-41f6-b656-cadbdba554bf" language-code="en-us" storage-option="sessionStorage" max-query-length="256">
+                            <df-messenger-chat-bubble chat-title="MARC - Virtual Assistant" allow-fullscreen="small">
+                            </df-messenger-chat-bubble>
+                        </df-messenger>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="push"></div>
+            <a href="/index.cfm?md=form&amp;tmp=site_feedback&amp;nowrap=1" class="feedback-modal-btn" data-toggle="modal" data-target="#feedback-modal">Feedback</a>
+            <span data-acsb="trigger" class="side-accessibility-btn" title="Accessibility Options">Accessibility</span>
+        </section>
+
+        <!--/CONTENT-->
+    </div>
+    <!--FOOTER-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="txt">
+                    <!--Google Translate-->
+                    <div style="text-align:center; display:block; padding: 12px 0 10px 23px; pointer-events:none">
+                        <div id="google_translate_element"></div><script type="text/javascript">
+                                                                     function googleTranslateElementInit() {
+                                                                         new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'de,el,en,es,fr,it,ja,ko,la,tl,vi,zh-CN,zh-TW,ar', gaTrack: true, gaId: 'UA-3632381-1' }, 'google_translate_element');
+                                                                     }
+                        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </div>
+                    <a href="/privacy-policy">Privacy Policy</a> | <a href="/disclaimer">Disclaimer</a><br>
+                    @* <strong>Mailing Address:</strong> Louisiana Department of Health | P. O. Box 629 | Baton Rouge, LA 70821-0629<br><address> *@
+                    <strong>Mailing Address:</strong> Kansas Mailing address<br><address>
+                        @* <strong>Physical Address:</strong> 628 N. 4th Street | Baton Rouge, LA 70802 | PHONE: 225-342-9500 | FAX: 225-342-5568<br>  <strong>Medicaid Customer Service </strong><em>1-888-342-6207</em> |  <strong>Healthy Louisiana</strong> <em>1-855-229-6848</em> *@
+                        <strong>Physical Address:</strong> Office address<br>  <strong>Medicaid Customer Service PROVIDER</strong><em>800 933 6593</em> |  <strong>MEMBER</strong> <em>800 766 9012</em>
+                        <br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        @*  <div class="social">
+                        <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.62 204.61"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M102.32,204.36c-13.82,0-27.68.64-41.46-.13A63.81,63.81,0,0,1,.31,141.07q-.6-38.71,0-77.46A63.93,63.93,0,0,1,62.06.49c18.11-.7,36.37-.8,54.4.74,30,2.55,54.48,29.76,55.65,59.89.44,11.27,3.73,14.48,14.91,14.52,2,0,4,0,6,0,7.23.28,11.38,4,11.41,11.11.08,20,.58,40-.48,59.94-1.57,29.39-27.83,55.54-57.18,57.29-14.77.87-29.63.15-44.45.15Zm.3-75.09c-12.32,0-24.63-.1-36.95,0-6.85.08-11.47,4.48-11.59,10.55s4.42,10.92,11.15,11c24.8.15,49.61.1,74.41,0a10.49,10.49,0,0,0,10.25-6.67c3.14-7.32-2.15-14.73-10.81-14.86C126.93,129.13,114.78,129.27,102.62,129.27ZM86.48,54.09c-7,0-14-.09-21,0-6.7.11-11.41,4.58-11.46,10.63,0,5.87,4.25,10.59,10.8,10.72q21.43.42,42.9,0c6.58-.13,10.73-4.82,10.65-10.82-.09-6.15-4.66-10.44-11.48-10.54S93.3,54.08,86.48,54.09Z" /></g></g></svg>
+                        </a>
+                        </div> *@
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="siteCredits"><a href="#" target="_blank">Kansas Medicaid Site</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--/FOOTER-->
+
+
+    <div id="feedback-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/retina.min.js"></script>
+    <script src="/js/navigation.js"></script>
+    <script src="/js/jquery.placeholder.min.js"></script>
+    <script src="/js/common.js?u=2"></script>
+    <script src="/js/feedback.js"></script>
+    <script src="/js/subhome_carousel.js?u=1"></script>
+
+    @*     <script src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+
+    <script>
+    //accessibility button - code from client
+    (function(document, tag) { var script = document.createElement(tag); var element = document.getElementsByTagName('body')[0]; script.src = 'https://acsbap.com/api/app/assets/js/acsb.js'; script.async = true; script.defer = true; (typeof element === 'undefined' ? document.getElementsByTagName('html')[0] : element).appendChild(script); script.onload = function() { acsbJS.init({ statementLink : '', feedbackLink : '', footerHtml : '', hideMobile : false, hideTrigger : true, language : 'en', position : 'right', leadColor : '#0d2b3f', triggerColor : '#16828c', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'center', triggerIcon : 'settings', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'center', triggerOffsetX : 0, triggerOffsetY : 0, triggerRadius : '0' } }); };}(document, 'script'));
+    </script>
+    <script src="https://df-messenger-prod-j6axfe3vgq-ue.a.run.app/index.js"></script> *@
+    <!-- SUB HOME -->
+
+</body>
+</html>
